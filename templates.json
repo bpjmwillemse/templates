@@ -681,27 +681,27 @@
     ]
   }
   { 
-      "title": "NAV VersionEnvironment", 
-      "description": "2017 CU8 - ISUNL2.02.00", 
-      "logo": "https://meine.infoma.de/webinfoma/iupdate.nsf/files/logo.gif/$file/logo.gif", 
-      "image": "axians-ver-env:2017-cu8-isunl20200", 
-      "command": "powershell C:\\Run\\start.ps1",  
-      "platform": "windows", 
-      "categories": ["nav", "axians"], 
-      "env": [ 
-        { 
-            "name": "NonInteractive", 
-            "set": "Y" 
-        }, 
-        { 
-            "name": "licensefile", 
-            "set": "http://navfiles/dev.flf" 
-        }, 
-        { 
-            "name": "bakfile", 
-            "set": "http://navfiles/newsystem_170100000.bak" 
-        } 
-      ], 
-      "network": "MyTransparentNetwork" 
+    "title": "NAV VersionEnvironment", 
+    "description": "2017 CU8 - ISUNL2.02.00", 
+    "logo": "https://meine.infoma.de/webinfoma/iupdate.nsf/files/logo.gif/$file/logo.gif", 
+    "image": "axians-ver-env:2017-cu8-isunl20200", 
+    "command": "powershell C:\\Run\\start.ps1",  
+    "platform": "windows", 
+    "categories": ["nav", "axians"], 
+    "env": [ 
+      { 
+          "name": "NonInteractive", 
+          "set": "Y" 
+      }, 
+      { 
+          "name": "licensefile", 
+          "set": "http://navfiles/dev.flf" 
+      }, 
+      { 
+          "name": "bakfile", 
+          "set": "http://navfiles/newsystem_170100000.bak" 
+      } 
+    ], 
+    "network": "MyTransparentNetwork" 
   }  
 ]
