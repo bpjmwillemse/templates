@@ -643,7 +643,7 @@
     "platform": "linux",
     "logo": "https://cloudinovasi.id/assets/img/logos/openfaas.png",
     "repository": {
-,      "url": "https://github.com/openfaas/faas",
+      "url": "https://github.com/openfaas/faas",
       "stackfile": "docker-compose.yml"
     }
   },
@@ -679,8 +679,8 @@
         "description": "Password used by the MySQL root user."
       }
     ]
-  }
-  { 
+  },
+  {
     "title": "NAV VersionEnvironment", 
     "description": "2017 CU8 - ISUNL2.02.00", 
     "logo": "https://meine.infoma.de/webinfoma/iupdate.nsf/files/logo.gif/$file/logo.gif", 
